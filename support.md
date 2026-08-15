@@ -1,4 +1,4 @@
-# StoreFrame Studio — Support
+# StoreFrame Studio - Support
 
 StoreFrame Studio is a Mac app for designing App Store screenshots and app preview videos.
 
