@@ -1,81 +1,67 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>StoreFrame Studio — Privacy Policy</title>
-<style>
-  :root { color-scheme: light dark; }
-  * { box-sizing: border-box; }
-  body { margin: 0; font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-         color: #1c2230; background: #f6f8fc; }
-  @media (prefers-color-scheme: dark) { body { color: #e6ebf5; background: #0f1420; } }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
-  h1 { font-size: 26px; margin: 0 0 4px; }
-  .date { color: #64748b; margin: 0 0 28px; }
-  h2 { font-size: 18px; margin: 30px 0 8px; }
-  a { color: #3b82f6; }
-  ul { padding-left: 20px; }
-  footer { margin-top: 48px; color: #64748b; font-size: 13px; }
-  .back { display:inline-block; margin-bottom: 24px; color:#64748b; text-decoration:none; }
-</style>
-</head>
-<body>
-<div class="wrap">
-  <a class="back" href="index.html">← StoreFrame Studio</a>
-  <h1>Privacy Policy</h1>
-  <p class="date">Last updated: 20 July 2026</p>
+# StoreFrame Studio — Privacy Policy
 
-  <p>This Privacy Policy explains how <strong>Zen2Code</strong> ("we", "us", "our") handles
-     information in connection with the <strong>StoreFrame Studio</strong> application (the "App").
-     By using the App you agree to this policy.</p>
 
-  <h2>The short version</h2>
-  <p><strong>We do not collect, store, sell, or share any personal data.</strong> The App runs
-     entirely on your device, requires no account, and works offline.</p>
+## What StoreFrame Studio collects
 
-  <h2>Information we do not collect</h2>
-  <ul>
-    <li>No accounts, names, emails, or passwords.</li>
-    <li>No analytics, tracking, telemetry, advertising identifiers, or usage profiling.</li>
-    <li>No location, contacts, or device identifiers.</li>
-    <li>We operate no servers that receive your content.</li>
-  </ul>
+**Your projects, screenshots and videos stay on your Mac.** They are never uploaded to us. There is
+no account, no sign-in, and no analytics or crash-reporting SDK in the app.
 
-  <h2>Your content stays on your device</h2>
-  <p>Screenshots, images, videos, text, and projects you create or import are processed and stored
-     locally on your device. They are never uploaded to us. They leave your device only when you
-     choose to export, save, or share them, and then only to the destination you select.</p>
+Three things do leave your Mac, and only these.
 
-  <h2>Purchases</h2>
-  <p>Purchases and subscriptions are processed by the platform's app store (Apple App Store or
-     Microsoft Store), not by us. We never receive your payment card or billing details. The store
-     may provide us with anonymized or aggregated sales information (for example, number of units
-     sold) that does not identify you.</p>
+### 1. Licence verification (only if you have purchased)
 
-  <h2>Optional AI features (your own key)</h2>
-  <p>If you choose to use AI-assisted features, you provide your own API key for a third-party AI
-     provider. Your key is stored securely on your device (in the operating system keychain) and is
-     never transmitted to us. When you use those features, your request is sent directly from your
-     device to that provider under <em>their</em> privacy policy and terms. We do not proxy, read,
-     log, or store your key, prompts, or results. Using these features is entirely optional.</p>
+To keep Pro unlocked and to honour refunds and cancellations, the app periodically checks with our
+licence server whether your purchase is still active.
 
-  <h2>Third-party links and marks</h2>
-  <p>The App references device models and platforms (such as iPhone, iPad, Pixel, Mac, and others)
-     that are trademarks of their respective owners. Those references are for descriptive purposes
-     and do not imply any endorsement or data sharing.</p>
+That check sends your App Store purchase record — the receipt and transaction identifier Apple
+issues for this app — together with a random identifier. The random
+identifier cannot be linked back to you; it exists so a licence stays with the Mac it was bought for.
 
-  <h2>Children</h2>
-  <p>The App is not directed to children and, in any case, collects no personal data from anyone.</p>
+**Sent to:** our licence server (hosted in the EU), which asks Apple whether the purchase is
+currently valid.
 
-  <h2>Changes to this policy</h2>
-  <p>We may update this policy from time to time. The "Last updated" date above reflects the current
-     version. Material changes will be posted on this page.</p>
+**Stored:** the purchase identifier, which product it is, and whether it is currently active. Kept
+while the purchase exists and for a short period afterwards, for refund handling.
 
-  <h2>Contact</h2>
-  <p>Questions about privacy: <a href="mailto:stoyan.hristov2a@gmail.com">stoyan.hristov2a@gmail.com</a></p>
+**Not stored:** your name, your email, your Apple Account, or anything about the screenshots and
+videos you make.
 
-  <footer>© 2026 Zen2Code.</footer>
-</div>
-</body>
-</html>
+### 2. AI features (only if you turn them on, and only with your own key)
+
+The AI features — Auto design, captions and translation — are optional and off until you paste an
+API key of your own. When you use them, the app sends **the screenshots you select** and the text
+prompt **directly from your Mac to the provider you chose** (Anthropic or OpenAI). Nothing passes
+through our servers and we never see your key or your images. Your use is billed to your own
+provider account, under that provider's privacy policy.
+
+Blur and pixelate regions are part of the design, not part of the image file. The app will not run
+Auto design while they are present, precisely so it cannot send an unredacted original by accident.
+
+Your API key is stored in the macOS Keychain on your Mac. It is never transmitted anywhere except to
+the provider it belongs to.
+
+### 3. Purchases
+
+Purchases are handled entirely by Apple through the App Store. We never see your payment details.
+
+## What we never do
+
+- No accounts, no sign-in, no profile.
+- No analytics, telemetry, advertising or tracking of any kind.
+- No selling or sharing of data with anyone, ever.
+- No access to your location, contacts, photo library, camera or microphone.
+
+## Your choices
+
+- Not purchasing means no licence check is ever made.
+- Not adding an AI key means nothing is ever sent to an AI provider.
+- Deleting the app removes the installation id and your stored key from your Mac.
+
+## Children
+
+StoreFrame Studio is a tool for app developers and is not directed at children. We do not knowingly
+collect data from anyone, including children.
+
+## Contact
+
+Questions or a data request: stoyan.d.hristov@icloud.com
