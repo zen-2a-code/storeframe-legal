@@ -45,7 +45,7 @@ Store app. Cancelling keeps Pro until the end of the paid period.
 
 ## Requirements
 
-macOS 13 or later, Apple Silicon or Intel.
+macOS 11 or later, Apple Silicon or Intel.
 
 ## Legal
 
